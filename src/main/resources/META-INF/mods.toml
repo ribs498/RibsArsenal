@@ -1,0 +1,54 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU GPLv3"
+
+[[mods]]
+modId="ribsarsenal"
+version="0.0.1"
+displayName="Scorched Guns"
+authors="ribs"
+credits="Ribs"
+description="Scorched guns addon :)"
+
+[[dependencies.ribsarsenal]]
+modId="forge"
+mandatory=true
+versionRange="[46, 48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ribsarsenal]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20, 1.20.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ribsarsenal]]
+modId="framework"
+mandatory=true
+versionRange="[0.6.16,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ribsarsenal]]
+modId="scguns"
+mandatory=true
+versionRange="[0.1.5,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.ribsarsenal]]
+modId="controllable"
+mandatory=false
+versionRange="[0.16.3,)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.ribsarsenal]]
+modId="backpacked"
+mandatory=false
+versionRange="[2.1.9,)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.ribsarsenal]]
+modId="curios"
+mandatory=true
+versionRange="[5.9.1,)"
+ordering="AFTER"
+side="CLIENT"
